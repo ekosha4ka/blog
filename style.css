@@ -526,6 +526,46 @@ input, textarea, select {
 border-bottom: 1px solid var(--color-gray-900);
 }
 
+.dashboard aside a:hover {
+    background: var(--color-gray-700);
+}
+
+.dashboard aside a.active {
+    background-color: var(--color-gray-700);
+}
+
+.dashboard main {
+    margin-left: 1.5rem;
+
+}
+
+.dashboardmain h2 {
+    margin: 0 0 2rem 0;
+    line-height: 1;
+}
+
+.dashboard main table {
+    width: 100%;
+    text-align: left;
+}
+
+.dashboard main table th {
+    background: var(--color-gray-700);
+    padding: 0.8rem;
+    color: var(--color-white);
+}
+
+.dashboard main table td {
+    padding: 0.8rem;
+    border-bottom: 1px solid var(--color-gray-200);
+}
+
+.dashboard main table tr:hover td {
+    background-color: var(--color-bg);
+    color: var(--color-white);
+    cursor: default;
+    transition: var(--transition);
+}
 /* ---------------- MEDIA (IPad) ---------------------*/
 
 @media  screen and (max-width: 1024px) {
